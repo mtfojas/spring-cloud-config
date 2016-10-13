@@ -1,0 +1,8 @@
+---
+mongo:
+  uri: "mongodb://uvm0001dev:27017/cloud"
+security:
+  user:
+    name: mongodbUser
+    password: mongodbPassword
+---
