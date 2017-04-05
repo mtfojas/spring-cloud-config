@@ -1,2 +1,13 @@
 ---
-source: git
+spring:
+  profiles: cloud 
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+source: github 
